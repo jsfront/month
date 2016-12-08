@@ -39,7 +39,7 @@ $ git remote -v
 $ git remote add jsfront git@github.com:jsfront/month.git
 
 # 再次列出远程仓库 URL
-$ git remotree -v
+$ git remote -v
 # jsfront     git@github.com:jsfront/month.git (fetch)
 # jsfront     git@github.com:jsfront/month.git (push)
 # origin      git@github.com:hiyangguo/month.git (fetch)
