@@ -39,7 +39,7 @@ $ git remote -v
 $ git remote add jsfront git@github.com:jsfront/month.git
 
 # 再次列出远程仓库 URL
-$ git remotree -v
+$ git remote -v
 # jsfront     git@github.com:jsfront/month.git (fetch)
 # jsfront     git@github.com:jsfront/month.git (push)
 # origin      git@github.com:hiyangguo/month.git (fetch)
@@ -74,7 +74,7 @@ $ git merge jsfront/master
     - 也有的是以反问的形式做为标题，然后以背景开发，以论据为主题：[【如何做好一名实习生】](http://www.cnblogs.com/hustskyking/p/how-to-be-an-excellent-intern.html)
     - 有的纯技术文章或者没有注重任何的形式，就是以一系列的问题集合做为主体。这种内容只要超过一屏也是可以的，比如：[【你应该知道的JavaScript】](http://youbookee.com/2016/08/30/js-you-should-know/)
 - 文案排版最好能遵循[[文案排版规范][coding-copy-writing]]()（此规范来自 CODING 最佳实践）。
-- 提交时务必注意，有一个清晰的 `commit` 信息（注明提交的内容，修改了什么或者更新了什么），方便代码的整体维护。
+- 提交时务必注意，有一个清晰的 `commit` 信息（注明提交的内容，修改了什么或者更新了什么），方便代码的整体维护。详见[Git提交的正确姿势：Commit message 和 Change log 编写指南](https://mp.weixin.qq.com/s?__biz=MzA4MjU5NTY0NA==&mid=401840568&idx=1&sn=051879b73f32ab7bcbcfc2e3cdd85f07&scene=1&srcid=0107l8avY4frKW3kfhaIUoNY&key=41ecb04b0511100344d280ce4225cc8c4d97599af475ef134186f7df3a7b8ace7e0e2eebc59d96ca00d6c9abf1ebf9e2&ascene=0&uin=MjAyNzY1NTU%3D&devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=ymbjwf7oU6CeUuxBIkhi0U6TOA5EP5ZWHXbpm6NVy%2FY%3D)
 ```bash
 # 正确的做法
 $ git commit -m "update:添加了月报的 url "
