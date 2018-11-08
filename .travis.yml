@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - stable
+install:
+  - npm install
+cache:
+  directories:
+    - node_modules
+before_deploy:
+  - npm install -g gitbook-cli
+  - npm run prerelease
+deploy:
+  - provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: _book
+    target_branch: gh-pages
+    on:
+      branch: master
