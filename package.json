@@ -1,0 +1,26 @@
+{
+  "name": "month",
+  "version": "1.0.0",
+  "description": "js前端联盟知识月刊",
+  "scripts": {
+    "prerelease": "gitbook build",
+    "release": "node script/gh-pages.js",
+    "server": "gitbook serve",
+    "pdf": "gitbook pdf ./ pdf/month.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsfront/month.git"
+  },
+  "license": "MPL",
+  "bugs": {
+    "url": "https://github.com/jsfront/month/issues"
+  },
+  "homepage": "https://github.com/jsfront/month#readme",
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  },
+  "dependencies": {
+    "gitbook-cli": "^2.3.0"
+  }
+}

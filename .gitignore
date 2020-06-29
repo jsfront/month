@@ -1,0 +1,28 @@
+# OS generated files
+## MacOS
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+._*
+.Trashes
+## Windows
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Vim
+Session.vim
+*~
+*.s[a-w][a-z]
+*.un~
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# IntelliJ (WebStorm)
+.idea
+/_book/
+/node_modules/
+/*npm-debug.log
